@@ -1,0 +1,67 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+h1 {
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555555;
+  margin: 10px 0;
+}
+
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#message {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#attempts {
+  font-weight: bold;
+  color: #333333;
+}
